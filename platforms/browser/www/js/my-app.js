@@ -74,6 +74,9 @@ let calcModule = {
   },
 
   decInput: function() {
+    if (this.newln == true) {
+      $$('.card').text('0')
+    }
     if (!$$('.card').text().includes('.')) {
       $$('.card').text($$('.card').text() + '.')
       this.newln = false
