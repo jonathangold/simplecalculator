@@ -1,1 +1,4 @@
 node_modules/framework7/* linguist-vendored
+platforms/* linguist-vendored
+hooks/* linguist-vendored
+res/* linguist-vendored
